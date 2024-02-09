@@ -1,0 +1,70 @@
+
+#clear {
+  width: 270px;
+  border: 3px solid gray;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: red;
+}
+
+.form{
+  width: 300px;
+  height: 530px;
+  margin: auto;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+
+input {
+  width: 20px;
+  background-color: rgb(18, 134, 124);
+  color:yellow;
+  border: 3px solid rgb(216, 5, 79);
+  border-radius: 5px;
+  padding: 26px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+
+#calc {
+  width: 250px;
+  background-color: rgb(87, 23, 76);
+  border: 5px solid rgb(9, 249, 213);
+  border-radius: 3px;
+  padding: 20px;
+  margin: auto;
+}
+
+#plus {
+
+  background-color: cadetblue
+}
+
+#minus {
+
+  background-color: cadetblue;
+}
+
+#multiplication {
+
+  background-color: cadetblue;
+}
+
+#divide {
+
+  background-color: cadetblue;
+}
+
+#Dot {
+
+  background-color: cadetblue;
+}
+
+#equal {
+
+  background-color: cadetblue;
+}

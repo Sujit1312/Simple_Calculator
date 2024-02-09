@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Simple_Calculator </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+
+  <div class="form" style="background-color: black;">
+    <form name="Demo_Calculator">
+
+      <input id="calc" type="text" name="answer"> <br> <br>
+      <input type="button" value="1" onclick="Demo_Calculator.answer.value += '1' ">
+      <input type="button" value="2" onclick="Demo_Calculator.answer.value += '2' ">
+      <input type="button" value="3" onclick="Demo_Calculator.answer.value += '3' ">
+      <input type="button" value="+" onclick="Demo_Calculator.answer.value += '+' " id="plus">
+      <br> <br>
+
+      <input type="button" value="4" onclick="Demo_Calculator.answer.value += '4' ">
+      <input type="button" value="5" onclick="Demo_Calculator.answer.value += '5' ">
+      <input type="button" value="6" onclick="Demo_Calculator.answer.value += '6' ">
+      <input type="button" value="-" onclick="Demo_Calculator.answer.value += '-' " id="minus">
+      <br> <br>
+
+      <input type="button" value="7" onclick="Demo_Calculator.answer.value += '7' ">
+      <input type="button" value="8" onclick="Demo_Calculator.answer.value += '8' ">
+      <input type="button" value="9" onclick="Demo_Calculator.answer.value += '9' ">
+      <input type="button" value="*" onclick="Demo_Calculator.answer.value += '*' " id="multiplication">
+      <br> <br>
+
+
+      <input type="button" value="/" onclick="Demo_Calculator.answer.value += '/' " id="divide">
+      <input type="button" value="0" onclick="Demo_Calculator.answer.value += '0' ">
+      <input type="button" value="." onclick="Demo_Calculator.answer.value += '.' " id="Dot">
+      <input type="button" value="=" onclick="Demo_Calculator.answer.value = eval(Demo_Calculator.answer.value) " id="equal">
+      <br>
+      <input type="button" value="Clear All" onclick="Demo_Calculator.answer.value = ' ' " id="clear">
+      <br>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
